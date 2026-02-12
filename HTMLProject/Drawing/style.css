@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(255, 255, 78);
+}
+.square{
+    width: 140px;
+    height: 400px;
+    background-color: rgb(245, 167, 94);
+    border: solid black 4px;
+    border-bottom: none;
+    position: absolute;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+.circle{
+    height: 170px;
+    width: 170px;
+    background-color: rgb(245, 167, 94);
+    position: absolute;
+    bottom: 110px;
+    left: 800px;
+    border-radius: 50%;
+    border: solid black 4px;
+}
+.c2{
+    height: 170px;
+    width: 170px;
+    background-color: rgb(245, 167, 94);
+    position: absolute;
+    bottom: 110px;
+    right: 800px;
+    border-radius: 50%;
+    border: solid black 4px;
+}
+.part{
+    height: 190px;
+    width: 140px;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(245, 167, 94); 
+    top: 54%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70% ;
+}
+
+.ulo{
+    height: 200px;
+    width: 140px;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(245, 167, 94);
+    top: 0%;
+    bottom: 40%;
+    right: 0%;
+    left: 0%;
+    border: solid black 4px;
+    border-radius: 50%;
+}
+
+.hati{
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(245, 167, 94); 
+    top: 0%;
+    bottom: 20%;
+    right: 0%;
+    left: 0%;
+    border-top: solid black 4px;
+}
+
+.hati-ulo{
+    height: 50px;
+    width: 1px;
+    border: solid black 1px;
+    background-color: black;
+    top: 0%;
+    bottom: 55.5%;
+    right: 0%;
+    left: 0%;
+    position: absolute;
+    margin: auto;
+}
